@@ -1,0 +1,84 @@
+WELLNEST LAUNCH CHECKLIST
+
+STEP 1 — Download and unzip the site
+- Download the ZIP from ChatGPT.
+- Right click and unzip it.
+- The folder is called wellnest-site.
+
+STEP 2 — Create a GitHub account
+- Go to github.com
+- Create a free account.
+- Create a new repository called wellnest-site.
+- Upload all files from the unzipped folder.
+
+STEP 3 — Create a Vercel account
+- Go to vercel.com
+- Sign up using GitHub.
+- Click Add New Project.
+- Choose wellnest-site.
+- Click Deploy.
+- Vercel will create a free live URL.
+
+STEP 4 — Buy a domain
+Possible domain ideas:
+- wellnestfinds.com
+- shopwellnest.com
+- wellnestliving.com
+- lowtoxnest.com
+- betterhomefinds.com
+
+Buy one from:
+- Namecheap
+- GoDaddy
+- Squarespace Domains
+
+STEP 5 — Connect domain to Vercel
+- In Vercel, open the Wellnest project.
+- Go to Settings > Domains.
+- Add your domain.
+- Follow the DNS instructions exactly.
+
+STEP 6 — Create affiliate accounts
+Start with:
+- Amazon Associates
+- Target affiliate program
+- Walmart affiliate program
+- Etsy affiliate program
+- Impact
+- ShareASale
+
+STEP 7 — Replace placeholder product links
+In src/App.jsx:
+- Find affiliateUrl: "#"
+- Replace # with your real affiliate link.
+
+STEP 8 — Add real product images
+Next version should add imageUrl to each product card:
+imageUrl: "https://..."
+
+STEP 9 — Add disclosure pages
+At minimum:
+- Affiliate Disclosure
+- Privacy Policy
+- Contact
+
+STEP 10 — Start content
+First 10 Pinterest/TikTok ideas:
+1. Best lower-tox air fryer swaps
+2. Clean living swaps under $25
+3. What I stopped buying for my home
+4. Non-toxic wedding registry ideas
+5. Affordable fragrance-free laundry picks
+6. Better cookware swaps for beginners
+7. Clean apartment starter kit
+8. Low-tox bathroom swaps
+9. Glass food storage favorites
+10. Cozy clean candle alternatives
+
+STEP 11 — What to improve next
+- Real product images
+- Admin dashboard
+- Email signup connected to MailerLite or ConvertKit
+- Blog pages
+- Product detail pages
+- Barcode/label scanner
